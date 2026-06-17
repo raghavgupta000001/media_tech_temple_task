@@ -1,6 +1,5 @@
 'use client';
-
-import { useState } from 'react';
+import { useState, useEffect } from 'react'; 
 import { Settings, MapPin, Globe, Briefcase, X, Flame, Heart, Pencil, ArrowLeft} from 'lucide-react';
 import Link from 'next/link';
 import SettingsList from '@/components/SettingsList';
@@ -8,7 +7,11 @@ import SettingsList from '@/components/SettingsList';
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-
+  useEffect(() => {
+    if (window.location.hash === '#settings') {
+      setShowSettings(true);
+    }
+  }, []);
   return (
     <div className="flex flex-col min-h-screen bg-white pb-24 font-sans">
       

@@ -1,4 +1,4 @@
-import { Globe, Bell, FileText, Shield, HelpCircle, LogOut, Trash2, ChevronRight, User, BookOpen } from 'lucide-react';
+import { Globe, Bell, FileText, Shield, HelpCircle, LogOut, Trash2, ChevronRight, User, BookOpen} from 'lucide-react';
 import Link from 'next/link';
 
 export default function SettingsList() {

@@ -1,4 +1,6 @@
-# Mobile UI Clone - Settings & Profile Architecture
+# Media Tech Temple Task
+
+[**View Live Demo**](https://media-tech-temple-task.vercel.app/)
 
 A pixel-perfect, mobile-first web application built with Next.js and Tailwind CSS. This project translates a comprehensive Figma UI design into a fully functional React architecture with state-driven dynamic rendering and iOS-style interactive elements.
 
@@ -21,7 +23,9 @@ A pixel-perfect, mobile-first web application built with Next.js and Tailwind CS
 
 ## 📦 Getting Started
 
-First, run the development server:
+Follow these steps to set up the project locally on your machine:
 
+### 1. Clone the repository
 ```bash
-npm run dev
+git clone [https://github.com/raghavgupta000001/media_tech_temple_task.git](https://github.com/raghavgupta000001/media_tech_temple_task.git)
+cd media_tech_temple_task

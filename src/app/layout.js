@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Mobile App Clone",
   description: "Next.js Mobile UI",
+  icons: { icon: '/favicon.ico' },
 };
 
 export default function RootLayout({ children }) {

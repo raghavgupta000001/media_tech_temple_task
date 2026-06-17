@@ -1,5 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import BottomNav from '../components/BottomNav'; 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({ children }) {
         {/* This main tag acts as the physical "phone screen" */}
         <main className="w-full max-w-[430px] bg-white min-h-screen shadow-2xl relative overflow-x-hidden">
           {children}
+          <BottomNav />
         </main>
 
       </body>

@@ -8,7 +8,7 @@ export default function SettingsList() {
       {/* The 3 New Items */}
       <SettingsItem icon={<User className="w-5 h-5 text-gray-500" />} title="Country" href="/settings/country" />
       <SettingsItem icon={<Globe className="w-5 h-5 text-gray-500" />} title="Native language" value="English" href="/settings/language" />
-      <SettingsItem icon={<BookOpen className="w-5 h-5 text-gray-500" />} title="Learning" value="UI/Ux Designer" href="/settings/learning" />
+      <SettingsItem icon={<BookOpen className="w-5 h-5 text-gray-500" />} title="Learning" value="Full Stack Developer" href="/settings/learning" />
       
       {/* The Existing Items */}
       <SettingsItem icon={<Bell className="w-5 h-5 text-gray-500" />} title="Notifications" href="/settings/notifications" />

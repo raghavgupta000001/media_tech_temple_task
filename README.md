@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Mobile UI Clone - Settings & Profile Architecture
 
-## Getting Started
+A pixel-perfect, mobile-first web application built with Next.js and Tailwind CSS. This project translates a comprehensive Figma UI design into a fully functional React architecture with state-driven dynamic rendering and iOS-style interactive elements.
+
+## 🚀 Features
+
+* **Responsive Mobile Constraints:** Hard-coded maximum width (`max-w-[430px]`) and overflow handling to simulate a native mobile application environment on desktop browsers.
+* **Component-Driven Architecture:** Clean separation of concerns using reusable React components for repetitive UI elements (e.g., Settings Lists, Action Modals, Toggle Switches).
+* **Stateful Interactions:**
+  * Custom-built iOS-style Action Sheets (Bottom Sheets) using React `useState`.
+  * Dynamic conditional rendering to swap views without triggering full page reloads.
+  * Interactive, animated toggle switches.
+* **Modern Routing:** Next.js `app` directory routing combined with URL hash targeting (`/#settings`) to seamlessly navigate between deep links and maintain the UI state.
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js 15 (App Router)
+* **Styling:** Tailwind CSS
+* **Icons:** Lucide React
+* **Deployment:** Vercel
+
+## 📦 Getting Started
 
 First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
